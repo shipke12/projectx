@@ -8,6 +8,8 @@
 body {
     background-color: #FF7260;
     font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
@@ -37,7 +39,9 @@ h1 {
     height: 40%;
     border-radius: 25px;
     justify-content: space-around;
-    padding: 15px;
+    padding: 15px 0px 15px 0px;
+    width: 60%;
+    align-self: center;
 }
 
     .navigation a {
