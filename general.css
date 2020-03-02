@@ -43,6 +43,7 @@ h1 {
 }
 
     .navigation a {
+        display: flex;
         padding: 15px;
         color: black;
         text-decoration: none;
