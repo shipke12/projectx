@@ -12,6 +12,12 @@ body {
     flex-direction: column;
 }
 
+.bigBeautifulTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
 #logo {
     display: flex;
     flex-direction: row;
