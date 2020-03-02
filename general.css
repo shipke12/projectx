@@ -44,26 +44,27 @@ h1 {
     padding: 15px 0px 15px 0px;
     width: 60%;
     align-self: center;
-    font-family: 'Lobster Two';
 }
 
     .navigation a {
         padding: 15px;
-        color: #FF7260; /*pink*/
+        color: #129793; /*teal*/
         text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Lobster Two';
         font-weight: bold;
         transition: color .5s;
     }
 
         .navigation a:link {
-            color: #FF7260;
+            color: #129793;
+            
         }
 
         .navigation a:visited {
-            color: #FF7260;
+            color: #129793;
+            
         }
 
         .navigation a:hover {
-            color: #129793; /*teal*/
+            color: #129793;
         }
