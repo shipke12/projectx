@@ -19,15 +19,15 @@ body {
     justify-content: flex-start;
 }
 
-.imageClass {
+/*.imageClass {
     display: flex;
     flex-direction: row;
     width: 20%;
     justify-self: flex-start;
-}
+}*/
 
 #logo img {
-    width: 100%;
+    width: 20%;
     height: auto;
 }
 
