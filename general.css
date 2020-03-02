@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .imageClass {
@@ -33,15 +33,14 @@ body {
 
 /*.headerClass {
     display: flex;
-    flex-direction: row;
     width: 80%;
 }*/
 
 #logo h1 {
+    justify-self: center;
     color: #FF7260; /*pink*/
     font-family: 'Lobster Two';
     font-size: 72pt;
-    justify-self: center;
 }
 
 
