@@ -12,7 +12,7 @@ body {
     flex-direction: column;
 }
 
-#logo {
+#logo img {
     align-self: flex-start;
     width: 5%;
     height: auto;
