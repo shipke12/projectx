@@ -19,7 +19,7 @@ body {
 }
 
 #logo h1 {
-    text-align: center;
+    align-self: center;
     color: #FF7260; /*pink*/
     font-family: 'Lobster Two';
     font-size: 72pt;
