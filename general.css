@@ -15,7 +15,7 @@ body {
 #logo {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    align-content: flex-start;
 }
 
 #logo img {
@@ -24,10 +24,10 @@ body {
 }
 
 #logo h1 {
-    justify-self: center;
     color: #FF7260; /*pink*/
     font-family: 'Lobster Two';
     font-size: 72pt;
+    align-self: center;
 }
 
 
