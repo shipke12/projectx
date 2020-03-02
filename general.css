@@ -50,7 +50,7 @@ h1 {
         transition: color .5s;
         padding: 5px;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
     }
 
         .navigation a:link {
