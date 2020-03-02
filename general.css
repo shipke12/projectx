@@ -50,8 +50,8 @@ h1 {
         padding: 15px;
         color: #129793; /*teal*/
         text-decoration: none;
-        font-family: 'Lobster Two';
-        font-weight: bold;
+        font-family: 'Pacifico';
+        /*font-weight: bold;*/
         transition: color .5s;
     }
 
