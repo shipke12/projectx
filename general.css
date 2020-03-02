@@ -32,7 +32,6 @@ h1 {
 .navigation {
     display: flex;
     flex-direction: row;
-    align-items: stretch;
     position: relative;
     background-color: orange;
     height: 40%;
@@ -48,8 +47,6 @@ h1 {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         transition: color .5s;
-        justify-content: space-around;
-        align-items: stretch;
     }
 
         .navigation a:link {
