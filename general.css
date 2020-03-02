@@ -8,6 +8,7 @@
 body {
     background-color: #FFe678;
     font-family: Helvetica, sans-serif;
+    display: flex;
 }
 
 img {
