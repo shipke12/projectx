@@ -37,7 +37,7 @@ h1 {
     display: flex;
     flex-direction: row;
     position: relative;
-    background-color: #FFF5C3; /*yellow*/
+    background-color: #129793; /*teal*/
     height: 40%;
     border-radius: 25px;
     justify-content: space-around;
@@ -48,7 +48,7 @@ h1 {
 
     .navigation a {
         padding: 15px;
-        color: #129793; /*teal*/
+        color: #FFF5C3; /*yellow*/
         text-decoration: none;
         font-family: 'Spartan';
         font-weight: bold;
@@ -56,15 +56,13 @@ h1 {
     }
 
         .navigation a:link {
-            color: #129793;
-            
+            color: #FFF5C3;
         }
 
         .navigation a:visited {
-            color: #129793;
-            
+            color: #FFF5C3;
         }
 
         .navigation a:hover {
-            color: #FF7260;
+            color: #FF7260; /*pink*/
         }
