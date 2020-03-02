@@ -38,6 +38,7 @@ h1 {
     height: 40%;
     border-radius: 25px;
     justify-content: space-around;
+    padding: 20px;
 }
 
     .navigation a {
