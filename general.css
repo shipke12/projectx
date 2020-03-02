@@ -19,8 +19,9 @@ body {
 }
 
 #logo img {
-    width: 10%;
+    width: auto;
     height: auto;
+    padding: 10%;
 }
 
 #logo h1 {
