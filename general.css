@@ -24,6 +24,11 @@ body {
     width: 20%;
 }
 
+#logo img {
+    width: 100%;
+    height: auto;
+}
+
 .headerClass {
     display: flex;
     flex-direction: row;
