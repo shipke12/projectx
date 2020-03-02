@@ -49,6 +49,7 @@ h1 {
         font-weight: bold;
         transition: color .5s;
         justify-content: space-around;
+        align-items: stretch;
     }
 
         .navigation a:link {
