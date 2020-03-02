@@ -31,7 +31,7 @@ h1 {
 
 .navigation {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: stretch;
     position: relative;
     background-color: orange;
