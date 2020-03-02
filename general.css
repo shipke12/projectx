@@ -14,7 +14,8 @@ body {
 
 #logo {
     align-self: flex-start;
-    width: auto;
+    width: 10%;
+    height: auto;
 }
 
 #frontpageGif {
