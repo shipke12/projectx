@@ -16,10 +16,11 @@ body {
     align-self: flex-start;
     width: 10%;
     height: auto;
+    justify-content: flex-start;
 }
 
-#logo h1 {
-    align-self: center;
+h1 {
+    text-align: center;
     color: #FF7260; /*pink*/
     font-family: 'Lobster Two';
     font-size: 72pt;
