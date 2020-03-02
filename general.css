@@ -37,17 +37,17 @@ h1 {
     height: 40%;
     border-radius: 25px;
     justify-content: space-around;
-    padding: 1%;
+    padding: 15px;
 }
 
     .navigation a {
-        padding: 1%;
+        padding: 15px;
         color: black;
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         transition: color .5s;
-        margin: 2%;
+        margin: 10px;
     }
 
         .navigation a:link {
