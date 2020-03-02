@@ -40,6 +40,8 @@ body {
     color: #FF7260; /*pink*/
     font-family: 'Lobster Two';
     font-size: 72pt;
+    justify-self: center;
+    align-self: center;
 }
 
 
