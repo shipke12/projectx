@@ -51,7 +51,7 @@ h1 {
         color: #129793; /*teal*/
         text-decoration: none;
         font-family: 'Spartan';
-        /*font-weight: bold;*/
+        font-weight: bold;
         transition: color .5s;
     }
 
@@ -66,5 +66,5 @@ h1 {
         }
 
         .navigation a:hover {
-            color: #129793;
+            color: #FF7260;
         }
