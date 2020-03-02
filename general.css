@@ -12,6 +12,11 @@ body {
     flex-direction: column;
 }
 
+#logo {
+    align-self: flex-start;
+    width: auto;
+}
+
 #frontpageGif {
     align-self: center;
     width: auto;
