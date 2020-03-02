@@ -37,7 +37,7 @@ h1 {
     background-color: orange;
     height: 40%;
     border-radius: 25px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
     .navigation a {
