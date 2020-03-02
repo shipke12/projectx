@@ -23,7 +23,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 20%;
-    justify-content: flex-start;
+    justify-self: flex-start;
 }
 
 #logo img {
