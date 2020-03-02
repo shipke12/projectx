@@ -19,7 +19,7 @@ body {
 
 h1 {
     text-align: center;
-    color: #FF7260;
+    color: #FF7260; /*pink*/
     font-family: 'Lobster Two';
     font-size: 72pt;
 }
@@ -48,7 +48,7 @@ h1 {
 
     .navigation a {
         padding: 15px;
-        color: #505050; /*black*/
+        color: #FF7260;
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
@@ -56,11 +56,11 @@ h1 {
     }
 
         .navigation a:link {
-            color: #505050; 
+            color: #FF7260;
         }
 
         .navigation a:visited {
-            color: #505050;
+            color: #FF7260;
         }
 
         .navigation a:hover {
