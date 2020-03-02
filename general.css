@@ -14,20 +14,21 @@ body {
 
 #logo img {
     align-self: flex-start;
-    width: 5%;
+    width: 10%;
     height: auto;
 }
 
-#frontpageGif {
-    align-self: center;
-    width: auto;
-}
-
-h1 {
+#logo h1 {
     text-align: center;
     color: #FF7260; /*pink*/
     font-family: 'Lobster Two';
     font-size: 72pt;
+}
+
+
+#frontpageGif {
+    align-self: center;
+    width: auto;
 }
 
 .description {
