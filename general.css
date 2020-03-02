@@ -38,11 +38,11 @@ body {
     height: auto;
 }
 
-.headerClass {
+/*.headerClass {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
+}*/
 
 .headerClass h1 {
     justify-self: center;
