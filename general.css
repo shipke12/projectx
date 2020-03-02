@@ -12,10 +12,9 @@ body {
     flex-direction: column;
 }
 
-img {
-    position: relative;
-    width: 50%;
-    margin-left: 20%;
+#frontpageGif {
+    align-self: center;
+    width: auto;
 }
 
 h1 {
