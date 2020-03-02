@@ -18,12 +18,13 @@ body {
 }
 
 #logo img {
-    width: 10%;
+    width: 20%;
     height: auto;
     align-self: flex-start;
 }
 
 #logo h1 {
+    display: flex;
     align-self: center;
     color: #FF7260; /*pink*/
     font-family: 'Lobster Two';
