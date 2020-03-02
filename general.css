@@ -18,6 +18,18 @@ body {
     align-content: flex-start;
 }
 
+.imageClass {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+}
+
+.headerClass {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
 #logo img {
     width: 20%;
     height: auto;
