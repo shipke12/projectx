@@ -19,12 +19,11 @@ body {
 }
 
 #logo img {
-    width: auto;
-    height: auto;
-    padding: 10%;
+    width: 10%;
 }
 
 #logo h1 {
+    align-self: center;
     color: #FF7260; /*pink*/
     font-family: 'Lobster Two';
     font-size: 72pt;
