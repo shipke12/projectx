@@ -27,14 +27,15 @@ body {
 }*/
 
 #logo img {
-    width: 15%;
+    width: 20%;
     height: auto;
 }
 
-/*.headerClass {
+.headerClass {
     display: flex;
-    width: 80%;
-}*/
+    flex-direction: row;
+    justify-content: center;
+}
 
 #logo h1 {
     justify-self: center;
