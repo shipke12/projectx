@@ -29,10 +29,7 @@ body {
     flex-direction: row;
     width: 80%;
     justify-content: center;
-}
-
-#logo img {
-    height: auto;
+    align-content: center;
 }
 
 #logo h1 {
