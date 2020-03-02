@@ -42,7 +42,7 @@ h1 {
 
     .navigation a {
         padding: 15px 20px 15px 20px;
-        color: #FF7260;
+        color: #9BD7D5;
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
@@ -50,11 +50,11 @@ h1 {
     }
 
         .navigation a:link {
-            color: #FF7260;
+            color: #9BD7D5;
         }
 
         .navigation a:visited {
-            color: #FF7260;
+            color: #9BD7D5;
         }
 
         .navigation a:hover {
