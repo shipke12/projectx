@@ -48,7 +48,8 @@ body {
     display: flex;
     flex-direction: row;
     font-size: 11pt;
-    font-family: 'Lobster Two';
+    font-family: 'Spartan';
+    font-weight: bold;
     align-content: space-between;
     border: 5px solid #FFF5C3;
     background-color: #9BD7D5;
