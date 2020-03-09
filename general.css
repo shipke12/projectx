@@ -63,7 +63,7 @@ body {
     width: 30%;
     justify-content: flex-start;
     border-radius: 25px;
-    margin-right: 10px;
+    align-content: space-between;
 }
 
 .bigBeautifulTop h1 {
