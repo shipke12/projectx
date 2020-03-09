@@ -26,17 +26,17 @@ body {
     width: 20%;
 }
 
-/*.imageClass {
+    /*.imageClass {
     display: flex;
     flex-direction: row;
     width: 20%;
     justify-self: flex-start;
 }*/
 
-#logo img {
-    width: 100%;
-    height: auto;
-}
+    #logo img {
+        width: 100%;
+        height: auto;
+    }
 
 /*.headerClass {
     display: flex;
@@ -58,14 +58,14 @@ body {
     padding: 20px;
 }
 
-.newCatBreed img {
-    width: 30%;
-    border-radius: 25px;
-}
+    .newCatBreed img {
+        width: 30%;
+        border-radius: 25px;
+    }
 
-.newCatBreed h1 {
-    margin-left: 20px;
-}
+    .newCatBreed h1 {
+        margin-left: 20px;
+    }
 
 .newCatBreedRight {
     display: flex;
@@ -82,10 +82,10 @@ body {
     justify-content: flex-end;
 }
 
-.newCatBreedRight img {
-    width: 30%;
-    border-radius: 25px;
-}
+    .newCatBreedRight img {
+        width: 30%;
+        border-radius: 25px;
+    }
 
 .bigBeautifulTop h1 {
     justify-self: center;
@@ -102,17 +102,15 @@ body {
 
 .description {
     position: relative;
-    text-align: center;
     margin-top: 3%;
     margin-bottom: 3%;
-    font-weight: bold;
 }
 
-    .description h1 {
-        text-align: left;
-        font-family: 'Lobster Two';
-        color: #FF7260;
-    }
+.description h1 {
+    font-family: 'Lobster Two';
+    font-size: 48pt;
+    color: #FFF5C3;
+}
 
 
 .navigation {
