@@ -79,18 +79,16 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     padding: 20px;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 
 .newCatBreedRight img {
     width: 30%;
     border-radius: 25px;
-    justify-content: flex-end;
 }
 
 .newCatBreed h1 {
     margin-right: 200px;
-    justify-content: space-evenly;
 }
 
 .bigBeautifulTop h1 {
