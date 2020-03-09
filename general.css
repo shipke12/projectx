@@ -87,10 +87,6 @@ body {
     border-radius: 25px;
 }
 
-.newCatBreed > h1 {
-    margin-right: 20px;
-}
-
 .bigBeautifulTop h1 {
     justify-self: center;
     color: #FF7260; /*pink*/
