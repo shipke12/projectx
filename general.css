@@ -73,8 +73,8 @@ body {
     font-size: 11pt;
     font-family: 'Spartan';
     font-weight: bold;
-    border: 5px dotted #FFF5C3;
-    background-color: #9BD7D5;
+    border: 5px dotted #FFF5C3; /*yellow*/
+    background-color: #9BD7D5; /*blue*/
     border-radius: 25px;
     margin-left: 10%;
     margin-right: 10%;
@@ -105,12 +105,14 @@ body {
     margin-top: 3%;
     margin-left: 10%;
     margin-bottom: 3%;
+    color: #9BD7D5; /*blue*/
+    font-family: 'Spartan';
 }
 
     .description h1 {
         font-family: 'Lobster Two';
-        font-size: 48pt;
-        color: #FFF5C3;
+        font-size: 36pt;
+        color: #FFF5C3; /*yellow*/
     }
 
 
