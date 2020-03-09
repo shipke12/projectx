@@ -50,7 +50,6 @@ body {
     font-size: 11pt;
     font-family: 'Spartan';
     font-weight: bold;
-    align-content: space-around;
     border: 5px dotted #FFF5C3;
     background-color: #9BD7D5;
     border-radius: 25px;
@@ -66,6 +65,30 @@ body {
 
 .newCatBreed h1 {
     margin-left: 20px;
+}
+
+.newCatBreedRight {
+    display: flex;
+    flex-direction: row;
+    font-size: 11pt;
+    font-family: 'Spartan';
+    font-weight: bold;
+    border: 5px dotted #FFF5C3;
+    background-color: #9BD7D5;
+    border-radius: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+}
+
+.newCatBreedRight img {
+    width: 30%;
+    border-radius: 25px;
+    justify-content: flex-end;
+}
+
+.newCatBreed h1 {
+    margin-right: 20px;
 }
 
 .bigBeautifulTop h1 {
