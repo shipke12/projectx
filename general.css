@@ -50,10 +50,12 @@ body {
     font-size: 11pt;
     font-family: 'Lobster Two';
     align-content: space-between;
+    border: 2px solid #9BD7D5;
+    border-radius: 25px;
 }
 
 .newCatBreed img {
-    width: 200px;
+    width: 20%;
     justify-content: flex-start;
 }
 
