@@ -44,6 +44,23 @@ body {
     justify-content: center;
 }*/
 
+.newCatBreed {
+    display: flex;
+    flex-direction: row;
+    font-size: 11pt;
+    font-family: 'Lobster Two';
+    align-content: space-between;
+}
+
+.newCatBreed img {
+    width: 20%;
+    justify-content: flex-start;
+}
+
+.newCatBreed h2 {
+   
+}
+
 .bigBeautifulTop h1 {
     justify-self: center;
     color: #FF7260; /*pink*/
