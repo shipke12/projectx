@@ -50,7 +50,8 @@ body {
     font-size: 11pt;
     font-family: 'Lobster Two';
     align-content: space-between;
-    border: 2px solid #9BD7D5;
+    border: 5px solid #9BD7D5;
+    background-color: aliceblue;
     border-radius: 25px;
     margin-left: 10%;
     margin-right: 10%;
