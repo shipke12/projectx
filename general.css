@@ -52,8 +52,9 @@ body {
     align-content: space-between;
     border: 2px solid #9BD7D5;
     border-radius: 25px;
-    margin: 20%;
-    padding: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 50px;
 }
 
 .newCatBreed img {
