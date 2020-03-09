@@ -90,6 +90,7 @@ body {
 
 .newCatBreed h1 {
     margin-right: 200px;
+    justify-content: space-evenly;
 }
 
 .bigBeautifulTop h1 {
