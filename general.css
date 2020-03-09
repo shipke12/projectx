@@ -108,6 +108,12 @@ body {
     font-weight: bold;
 }
 
+    .description h1 {
+        text-align: left;
+        font-family: 'Lobster Two';
+        color: #FF7260;
+    }
+
 
 .navigation {
     display: flex;
