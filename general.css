@@ -52,13 +52,9 @@ body {
     align-content: space-between;
 }
 
-.newCatBreed > img {
+.newCatBreed img {
     width: 200px;
     justify-content: flex-start;
-}
-
-.newCatBreed h2 {
-   
 }
 
 .bigBeautifulTop h1 {
