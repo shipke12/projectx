@@ -103,14 +103,15 @@ body {
 .description {
     position: relative;
     margin-top: 3%;
+    margin-left: 10%;
     margin-bottom: 3%;
 }
 
-.description h1 {
-    font-family: 'Lobster Two';
-    font-size: 48pt;
-    color: #FFF5C3;
-}
+    .description h1 {
+        font-family: 'Lobster Two';
+        font-size: 48pt;
+        color: #FFF5C3;
+    }
 
 
 .navigation {
