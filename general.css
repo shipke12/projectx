@@ -15,7 +15,7 @@ body {
 .bigBeautifulTop {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-items: center;
 }
 
 #logo {
