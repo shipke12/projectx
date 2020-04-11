@@ -75,12 +75,12 @@ body {
 .boxForFormattingRight h1 {
     flex-grow: 1;
     margin-bottom: 0;
-    margin-left: 0;
 }
 
 .boxForFormattingRight p {
     flex-grow: 1;
     justify-self: flex-start;
+    margin-left: 15px;
 }
 
 .newCatBreedRight {
