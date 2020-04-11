@@ -72,17 +72,15 @@ body {
     flex-direction: column;
 }
 
-.boxForFormattingRight h1 {
-    
-    margin-bottom: 0;
-    margin-left: 10px;
-}
+    .boxForFormattingRight h1 {
+        margin-bottom: 0;
+        margin-left: 10px;
+    }
 
-.boxForFormattingRight p {
-    
-    justify-self: flex-start;
-    margin-left: 25px;
-}
+    .boxForFormattingRight p {
+        justify-self: flex-start;
+        margin-left: 25px;
+    }
 
 .newCatBreedRight {
     display: flex;
