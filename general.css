@@ -67,6 +67,7 @@ body {
 
 .boxForFormattingRight {
     width: 100%;
+    justify-content: flex-start;
 }
 
 .newCatBreedRight {
