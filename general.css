@@ -65,6 +65,10 @@ body {
         margin-bottom: 0;
     }
 
+.boxForFormattingRight {
+    justify-self: flex-start;
+}
+
 .newCatBreedRight {
     display: flex;
     flex-direction: row;
