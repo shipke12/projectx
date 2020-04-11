@@ -19,6 +19,9 @@ body {
 }
 
 #logo {
+    width: 100%;
+}
+/*#logo {
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -29,7 +32,7 @@ body {
     #logo img {
         width: 100%;
         height: auto;
-    }
+    }*/
 
 .newCatBreed {
     display: flex;
