@@ -41,10 +41,11 @@ body {
         flex-direction: row;
         justify-content: center;
         margin-top: 20px;
+        align-content: center;
     }
 
     .contactUs p {
-        margin-right: 50px;
+        margin-right: 20px;
     }
 
     .contactUs textarea {
