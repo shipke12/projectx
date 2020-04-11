@@ -67,7 +67,7 @@ body {
 
 .boxForFormattingRight {
     width: 100%;
-    justify-content: flex-end;
+    justify-items: flex-end;
     display: flex;
     flex-direction: column;
 }
@@ -80,6 +80,7 @@ body {
 
 .boxForFormattingRight p {
     flex-grow: 1;
+    justify-self: flex-start;
 }
 
 .newCatBreedRight {
