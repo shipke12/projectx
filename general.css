@@ -72,6 +72,14 @@ body {
     flex-direction: column;
 }
 
+.boxForFormattingRight h1 {
+    flex-grow: 1;
+}
+
+.boxForFormattingRight p {
+    flex-grow: 1;
+}
+
 .newCatBreedRight {
     display: flex;
     flex-direction: row;
