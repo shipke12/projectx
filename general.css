@@ -58,7 +58,11 @@ body {
 }
 
 .boxForFormatting p {
-    margin-left: 10px;
+    margin-left: 15px;
+}
+
+.boxForFormatting h1 {
+    margin-bottom: 0;
 }
 
 .newCatBreedRight {
