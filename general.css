@@ -70,6 +70,10 @@ body {
     justify-content: flex-start;
 }
 
+.boxForFormattingRight h1 {
+    margin-left: 60%;
+}
+
 .newCatBreedRight {
     display: flex;
     flex-direction: row;
