@@ -80,7 +80,6 @@ body {
 
 .boxForFormattingRight p {
     flex-grow: 1;
-    justify-self: flex-start;
 }
 
 .newCatBreedRight {
