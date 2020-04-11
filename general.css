@@ -53,11 +53,8 @@ body {
 .boxForFormatting {
         display: flex;
         flex-direction: column;
-}
-
-.boxForFormatting h1 {
-    margin-left: 20px;
-    margin-bottom: 0;
+        margin-left: 20px;
+        margin-bottom: 0;
 }
 
 .newCatBreedRight {
