@@ -15,7 +15,7 @@ body {
 .bigBeautifulTop {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 }
 
     .bigBeautifulTop h1 {
@@ -25,7 +25,7 @@ body {
     }
 
     .bigBeautifulTop img {
-        width: 10%;
+        width: 20%;
         height: auto;
         margin: 20px;
     }
