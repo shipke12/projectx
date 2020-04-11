@@ -36,6 +36,21 @@ body {
         height: auto;
     }
 
+    .contactUs {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .contactUs p {
+        margin: 20px;
+    }
+
+    .contactUs textarea {
+        width: 200px;
+        height: 100px;
+    }
+
 .newCatBreed {
     display: flex;
     flex-direction: row;
