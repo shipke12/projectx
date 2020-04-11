@@ -26,23 +26,10 @@ body {
     width: 20%;
 }
 
-    /*.imageClass {
-    display: flex;
-    flex-direction: row;
-    width: 20%;
-    justify-self: flex-start;
-}*/
-
     #logo img {
         width: 100%;
         height: auto;
     }
-
-/*.headerClass {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}*/
 
 .newCatBreed {
     display: flex;
