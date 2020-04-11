@@ -57,6 +57,10 @@ body {
         margin-bottom: 0;
 }
 
+.boxForFormatting p {
+    margin-left: 10px;
+}
+
 .newCatBreedRight {
     display: flex;
     flex-direction: row;
