@@ -51,19 +51,19 @@ body {
     }
 
 .boxForFormatting {
-        display: flex;
-        flex-direction: column;
-        margin-left: 20px;
-        margin-bottom: 0;
-}
-
-.boxForFormatting p {
-    margin-left: 15px;
-}
-
-.boxForFormatting h1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
     margin-bottom: 0;
 }
+
+    .boxForFormatting p {
+        margin-left: 15px;
+    }
+
+    .boxForFormatting h1 {
+        margin-bottom: 0;
+    }
 
 .newCatBreedRight {
     display: flex;
@@ -115,7 +115,7 @@ body {
         color: #FFF5C3; /*yellow*/
     }
 
-    .description ul li{
+    .description ul li {
         padding-top: 10px;
     }
 
