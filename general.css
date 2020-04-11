@@ -25,10 +25,15 @@ body {
         font-size: 72pt;
     }
 
-    .bigBeautifulTop > a > img {
+    .bigBeautifulTop a {
         width: 15%;
         height: auto;
         margin: 20px;
+    }
+
+    .bigBeautifulTop > a > img {
+        width: 100%;
+        height: auto;
     }
 
 .newCatBreed {
