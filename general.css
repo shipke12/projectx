@@ -69,7 +69,7 @@ body {
     width: 100%;
     justify-content: flex-start;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .boxForFormattingRight h1 {
