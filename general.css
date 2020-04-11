@@ -50,8 +50,15 @@ body {
         border-radius: 25px;
     }
 
+    .newCatBreed p {
+        display: flex;
+        flex-direction: column;
+    }
+
     .newCatBreed h1 {
         margin-left: 20px;
+        height: 80px;
+        margin-bottom: 0;
     }
 
 .newCatBreedRight {
