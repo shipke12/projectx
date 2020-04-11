@@ -25,7 +25,7 @@ body {
         font-size: 72pt;
     }
 
-    .bigBeautifulTop img {
+    .bigBeautifulTop > a > img {
         width: 15%;
         height: auto;
         margin: 20px;
