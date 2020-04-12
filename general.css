@@ -26,6 +26,9 @@ body {
     }
 
     .bigBeautifulTop a {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
         width: 15%;
         height: auto;
         margin: 20px;
