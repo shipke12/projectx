@@ -206,11 +206,13 @@ body {
     .boxForFormattingRight h1 {
         margin-bottom: 0;
         margin-left: 10px;
+        margin-right: 10px;
     }
 
     .boxForFormattingRight p {
         justify-self: flex-start;
         margin-left: 25px;
+        margin-right: 25px;
     }
 
     .boxForFormattingRight > h1 > span {
