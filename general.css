@@ -82,6 +82,7 @@ body {
             transition-duration: 0.4s;
             background-color: #9BD7D5;
             color: #505050;
+            border-color: #FFF5C3;
         }
 
             .contactUs > input:enabled:hover {
