@@ -317,6 +317,16 @@ body {
             width: 50%;
         }
 
+    .featureCatBreed {
+        margin: 0;
+        flex-direction: column;
+    }
+        
+        .featureCatBreed img {
+            width: 100%;
+            align-self: center;
+        }
+
     .newCatBreed {
         margin: 0;
         flex-direction: column;
