@@ -11,8 +11,8 @@ firstName.addEventListener('input', () => {
     document.getElementById('messageSent').setAttribute('style', 'display: none;');
     submitButton.disabled = true;
     submitButton.classList.remove('move');
-    if ((firstName.value != null) && (lastName.value != null) && (email.value != null && email.value.includes('@'))
-        && (message.value != null)) {
+    if ((firstName.value != '' || firstName.value != null) && (lastName.value != '' || lastName.value != null) && ((email.value != '' || email.value != null) && email.value.includes('@'))
+        && (message.value != '' || message.value != null)) {
         submitButton.disabled = false;
     } else {
         submitButton.disabled = true;
@@ -23,8 +23,8 @@ lastName.addEventListener('input', () => {
     document.getElementById('messageSent').setAttribute('style', 'display: none;');
     submitButton.disabled = true;
     submitButton.classList.remove('move');
-    if ((firstName.value != null) && (lastName.value != null) && (email.value != null && email.value.includes('@'))
-        && (message.value != null)) {
+    if ((firstName.value != '' || firstName.value != null) && (lastName.value != '' || lastName.value != null) && ((email.value != '' || email.value != null) && email.value.includes('@'))
+        && (message.value != '' || message.value != null)) {
         submitButton.disabled = false;
     } else {
         submitButton.disabled = true;
@@ -35,8 +35,8 @@ email.addEventListener('input', () => {
     document.getElementById('messageSent').setAttribute('style', 'display: none;');
     submitButton.disabled = true;
     submitButton.classList.remove('move');
-    if ((firstName.value != null) && (lastName.value != null) && (email.value != null && email.value.includes('@'))
-        && (message.value != null)) {
+    if ((firstName.value != '' || firstName.value != null) && (lastName.value != '' || lastName.value != null) && ((email.value != '' || email.value != null) && email.value.includes('@'))
+        && (message.value != '' || message.value != null)) {
         submitButton.disabled = false;
     } else {
         submitButton.disabled = true;
@@ -46,8 +46,8 @@ email.addEventListener('input', () => {
 message.addEventListener('input', () => {
     document.getElementById('messageSent').setAttribute('style', 'display: none');
     submitButton.classList.remove('move');
-    if ((firstName.value != null) && (lastName.value != null) && (email.value != null && email.value.includes('@'))
-        && (message.value != null)) {
+    if ((firstName.value != '' || firstName.value != null) && (lastName.value != '' || lastName.value != null) && ((email.value != '' || email.value != null) && email.value.includes('@'))
+        && (message.value != '' || message.value != null)) {
         submitButton.disabled = false;
     } else {
         submitButton.disabled = true;
