@@ -312,6 +312,12 @@ body {
             display: flex;
         }
 
+        .boxForFormatting img {
+            align-self: flex-end;
+            width: 20%;
+            height: auto;
+        }
+
 @media screen and (max-width: 479px) {
     /* start of phone styles */
 
