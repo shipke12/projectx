@@ -137,6 +137,11 @@ body {
         margin-bottom: 0;
     }
 
+    .boxForFormatting > h1 > span {
+        color: gray;
+        font-size: 14pt;
+    }
+
 .boxForFormattingRight {
     width: 100%;
     justify-items: flex-end;
@@ -152,6 +157,11 @@ body {
     .boxForFormattingRight p {
         justify-self: flex-start;
         margin-left: 25px;
+    }
+
+    .boxForFormattingRight > h1 > span {
+        color: gray;
+        font-size: 14pt;
     }
 
 .newCatBreedRight {
@@ -331,6 +341,7 @@ body {
             width: 90%;
             height: 50px;
             margin-bottom: 20px;
+            font-size: 16pt;
         }
 
     #email {
@@ -341,10 +352,31 @@ body {
         width: 90%;
     }
 
-    @media screen and (max-width: 479px) {
-        /* start of phone styles */
-
-        .navigation a {
-            padding: 20px;
-        }
+    .contactUs > input {
+        font-size: 18pt;
     }
+
+    .newCatBreedRight {
+        font-size: 21pt;
+    }
+
+    .newCatBreed {
+        font-size: 21pt;
+    }
+
+    .boxForFormatting > h1 > span {
+        font-size: 18pt;
+    }
+
+    .boxForFormattingRight > h1 > span {
+        font-size: 18pt;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    /* start of phone styles */
+
+    .navigation a {
+        padding: 20px;
+    }
+}
