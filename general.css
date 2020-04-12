@@ -117,9 +117,37 @@ body {
 }
 
     .featureCatBreed img {
-            width: 30%;
-            border-radius: 25px;
-            height: auto;
+        width: 30%;
+        border-radius: 25px;
+        height: auto;
+    }
+
+.featureCatBreedRight {
+    display: flex;
+    flex-direction: row;
+    font-size: 11pt;
+    font-family: 'Spartan';
+    font-weight: bold;
+    border-radius: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    border: 5px solid #9BD7D5;
+    justify-content: flex-end;
+}
+
+    .featureCatBreedRight img {
+        width: 30%;
+        border-radius: 25px;
+        height: auto;
+    }
+
+    .featureCatBreedRight > .boxForFormattingRight {
+        display: flex;
+    }
+
+    .featureCatBreedRight > .boxForFormatting {
+        display: none;
     }
 
 .newCatBreed {
@@ -297,37 +325,37 @@ body {
         margin: 0;
     }
 
-    .featureCatBreed img {
-        flex-grow: 2;
-    }
+        .featureCatBreed img {
+            flex-grow: 2;
+        }
 
-    .featureCatBreed h1, p {
-        flex-grow: 1;
-    }
+        .featureCatBreed h1, p {
+            flex-grow: 1;
+        }
 
     .newCatBreed {
         margin: 0;
     }
 
-    .newCatBreed img {
-        flex-grow: 2;
-    }
+        .newCatBreed img {
+            flex-grow: 2;
+        }
 
-    .newCatBreed h1, p {
-        flex-grow: 1;
-    }
+        .newCatBreed h1, p {
+            flex-grow: 1;
+        }
 
     .newCatBreedRight {
         margin: 0;
     }
 
-    .newCatBreedRight img {
-        flex-grow: 2;
-    }
+        .newCatBreedRight img {
+            flex-grow: 2;
+        }
 
-    .newCatBreedRight h1, p {
-        flex-grow: 1;
-    }
+        .newCatBreedRight h1, p {
+            flex-grow: 1;
+        }
 }
 
 @media screen and (max-width: 767px) {
@@ -360,12 +388,31 @@ body {
         margin: 0;
         flex-direction: column;
     }
-        
+
         .featureCatBreed img {
             width: 100%;
             height: auto;
             align-self: center;
         }
+
+    .featureCatBreedRight {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .featureCatBreedRight img {
+        width: 100%;
+        height: auto;
+        align-self: center;
+    }
+
+    .featureCatBreedRight > .boxForFormattingRight {
+        display: none;
+    }
+
+    .featureCatBreedRight > .boxForFormatting {
+        display: flex;
+    }
 
     .newCatBreed {
         margin: 0;
@@ -440,4 +487,3 @@ body {
         font-size: 18pt;
     }
 }
-
