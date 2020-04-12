@@ -90,7 +90,7 @@ body {
                 border-color: #FF7260;
             }
 
-#message {
+#message-sent {
     display: none;
     font-family: 'Spartan';
     font-weight: bold;
