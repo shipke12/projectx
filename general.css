@@ -257,6 +257,7 @@ body {
         align-items: stretch;
         justify-content: space-around;
         font-size: 14pt;
+        position: center;
     }
 
 }
