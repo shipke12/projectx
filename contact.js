@@ -50,7 +50,7 @@ function submitInfo() {
     message.value = '';
     document.getElementById('messageSent').setAttribute('style', 'display: block;');
     submitButton.classList.add('move');
-    sleep(5000);
+    sleep(500000);
     submitButton.classList.remove('move');
     submitButton.disabled = true;
 
