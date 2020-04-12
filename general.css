@@ -275,6 +275,15 @@ body {
         width: 50%;
     }
 
+    .newCatBreed {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .newCatBreed img {
+        width: 90%;
+    }
+
 }
 
 @media screen and (max-width: 479px) {
