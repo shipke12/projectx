@@ -255,7 +255,7 @@ body {
         width: 100%;
         flex-direction: column;
         align-items: stretch;
-        justify-content: center;
+        justify-content: space-around;
         font-size: 14pt;
     }
 
