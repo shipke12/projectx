@@ -137,12 +137,6 @@ body {
         margin-bottom: 0;
     }
 
-    .boxForFormatting img {
-        width: 8%;
-        height: auto;
-        justify-self: flex-end;
-    }
-
 .boxForFormattingRight {
     width: 100%;
     justify-items: flex-end;
@@ -317,12 +311,6 @@ body {
         .newCatBreedRight > .boxForFormatting {
             display: flex;
         }
-
-    .boxForFormatting img {
-        align-self: flex-end;
-        width: 10%;
-        height: auto;
-    }
 
     @media screen and (max-width: 479px) {
         /* start of phone styles */
