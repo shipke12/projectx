@@ -90,9 +90,9 @@ body {
                 border-color: #FF7260;
             }
 
-            .contactUs > input.move {
-                transform: rotate(360deg);
-            }
+        .contactUs > input.move {
+            transform: rotate(360deg);
+        }
 
 #messageSent {
     display: none;
@@ -243,17 +243,16 @@ body {
             color: #FF7260; /*pink*/
         }
 
-        .navigation nav {
-            display: flex;
-            flex-direction: row;
-        }
+    .navigation nav {
+        display: flex;
+        flex-direction: row;
+    }
 
 @media screen and (max-width: 991px) {
     /* start of large tablet styles */
     .navigation {
         width: 80%;
     }
-
 }
 
 @media screen and (max-width: 767px) {
@@ -275,23 +274,23 @@ body {
         align-items: center;
     }
 
-    .bigBeautifulTop h1 {
-        margin: 5px;
-    }
+        .bigBeautifulTop h1 {
+            margin: 5px;
+        }
 
-    .bigBeautifulTop a {
-        width: 50%;
-    }
+        .bigBeautifulTop a {
+            width: 50%;
+        }
 
     .newCatBreed {
         margin: 0;
         flex-direction: column;
     }
 
-    .newCatBreed img {
-        width: 100%;
-        align-self: center;
-    }
+        .newCatBreed img {
+            width: 100%;
+            align-self: center;
+        }
 
     .newCatBreedRight {
         margin: 0;
@@ -299,31 +298,30 @@ body {
         justify-items: center;
     }
 
-    .newCatBreedRight img {
-        width: 100%;
-        align-self: center;
-        border-radius: 25px;
-    }
-    .newCatBreedRight > .boxForFormattingRight {
-        display: none;
-    }
+        .newCatBreedRight img {
+            width: 100%;
+            align-self: center;
+            border-radius: 25px;
+        }
+
+        .newCatBreedRight > .boxForFormattingRight {
+            display: none;
+        }
 
         .newCatBreedRight > .boxForFormatting {
             display: flex;
         }
 
-        .boxForFormatting img {
-            align-self: flex-end;
-            width: 20%;
-            height: auto;
-        }
-
-@media screen and (max-width: 479px) {
-    /* start of phone styles */
-
-    .navigation a {
-        padding: 20px;
+    .boxForFormatting img {
+        align-self: flex-end;
+        width: 20%;
+        height: auto;
     }
 
+    @media screen and (max-width: 479px) {
+        /* start of phone styles */
 
-}
+        .navigation a {
+            padding: 20px;
+        }
+    }
