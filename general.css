@@ -267,8 +267,13 @@ body {
         align-items: center;
     }
 
+    .bigBeautifulTop h1 {
+        margin: 5px;
+    }
+
     .bigBeautifulTop a {
         width: 50%;
+        margin-bottom: 10px;
     }
 
 }
