@@ -11,7 +11,10 @@ firstName.addEventListener('input', () => {
     document.getElementById('messageSent').setAttribute('style', 'display: none;');
     submitButton.disabled = true;
     submitButton.classList.remove('move');
-    if ((firstName.value != '' || firstName.value != null) && (lastName.value != '' || lastName.value != null) && ((email.value != '' || email.value != null) && email.value.includes('@'))
+    if ((firstName.value != '' || firstName.value != null)
+        && (lastName.value != '' || lastName.value != null)
+        && ((email.value != '' || email.value != null)
+        && email.value.includes('@'))
         && (message.value != '' || message.value != null)) {
         submitButton.disabled = false;
     } else {
