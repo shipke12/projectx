@@ -24,9 +24,9 @@ function submitInfo() {
     const person = {
         firstName: firstName.value, lastName: lastName.value, email: email.value, message: message.value
     }
-    firstName.value('');
-    lastName.value('');
-    email.value('');
-    message.value('');
+    firstName.value = '';
+    lastName.value = '';
+    email.value = '';
+    message.value = '';
     document.getElementById('messageSent').setAttribute('style', 'display: block;')
 }
