@@ -90,6 +90,12 @@ body {
                 border-color: #FF7260;
             }
 
+#error-message {
+    display: none;
+    font-family: 'Spartan';
+    font-size: 18pt;
+}
+
 .newCatBreed {
     display: flex;
     flex-direction: row;

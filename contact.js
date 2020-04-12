@@ -25,8 +25,9 @@ function submitInfo() {
         firstName: firstName.value, lastName: lastName.value, email: email.value, message: message.value
     }
     document.createElement(person);
-    firstName.innerText.replace("");
-    lastName.innerText.replace("");
-    email.innerText.replace("");
-    message.innerText.replace("");
+    firstName.value('');
+    lastName.value('');
+    email.value('');
+    message.value('');
+    document.getElementById('error-message').setAttribute('style', 'display: block;')
 }
