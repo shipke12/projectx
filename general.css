@@ -216,6 +216,7 @@ body {
     border: solid;
     border-color: #FF7260;
     border-width: 5px;
+    flex-wrap: nowrap;
 }
 
     .navigation a {
@@ -248,7 +249,7 @@ body {
     .navigation > nav{
         width: 100%;
         flex-direction: column;
-        justify-content: stretch;
+        justify-items: stretch;
     }
 
 }
