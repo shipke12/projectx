@@ -30,4 +30,5 @@ function submitInfo() {
     email.value = '';
     message.value = '';
     document.getElementById('messageSent').setAttribute('style', 'display: block;');
+    submitButton.classList.add('move');
 }

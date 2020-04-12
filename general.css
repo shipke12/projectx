@@ -90,6 +90,10 @@ body {
                 border-color: #FF7260;
             }
 
+            .contactUs > input.move {
+                transform: rotate(-90deg);
+            }
+
 #messageSent {
     display: none;
     font-family: 'Spartan';
@@ -97,34 +101,6 @@ body {
     font-size: 18pt;
     color: #FFF5C3;
     text-align: center;
-}
-
-.box {
-    animation-name: movingBox;
-    animation-duration: 1300ms;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-}
-
-@keyframes movingBox {
-    0% {
-        transform: translate(0, 0);
-        opacity: 0.3;
-    }
-
-    25% {
-        opacity: 0.9;
-    }
-
-    50% {
-        transform: translate(100px, 100px);
-        opacity: 0.2;
-    }
-
-    100% {
-        transform: translate(30px, 30px);
-        opacity: 0.8;
-    }
 }
 
 .newCatBreed {
