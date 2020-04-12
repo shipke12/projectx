@@ -62,7 +62,7 @@ body {
         padding-top: 8px;
     }
 
-    .contactUs > input {
+    .contactUs > input:enabled {
         width: 200px;
         height: 100px;
         transition-duration: 0.4s;
@@ -75,7 +75,7 @@ body {
         font-size: 14pt;
     }
 
-        .contactUs > input:hover {
+        .contactUs > input:enabled:hover {
             background-color: #129793;
             border: 5px solid #FF7260;
         }
