@@ -324,6 +324,7 @@ body {
         
         .featureCatBreed img {
             width: 100%;
+            height: auto;
             align-self: center;
         }
 
@@ -334,6 +335,7 @@ body {
 
         .newCatBreed img {
             width: 100%;
+            height: auto;
             align-self: center;
         }
 
@@ -346,6 +348,7 @@ body {
         .newCatBreedRight img {
             width: 100%;
             align-self: center;
+            height: auto;
             border-radius: 25px;
         }
 
