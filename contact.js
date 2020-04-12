@@ -9,18 +9,25 @@ submitButton.disabled = true;
 
 firstName.addEventListener('input', () => {
     document.getElementById('messageSent').setAttribute('style', 'display: none;');
+    submitButton.disabled = true;
+    submitButton.classList.remove('move');
 });
 
 lastName.addEventListener('input', () => {
     document.getElementById('messageSent').setAttribute('style', 'display: none;');
+    submitButton.disabled = true;
+    submitButton.classList.remove('move');
 });
 
 email.addEventListener('input', () => {
     document.getElementById('messageSent').setAttribute('style', 'display: none;');
+    submitButton.disabled = true;
+    submitButton.classList.remove('move');
 });
 
 message.addEventListener('input', () => {
     document.getElementById('messageSent').setAttribute('style', 'display: none');
+    submitButton.classList.remove('move');
     if ((firstName.value != null) && (lastName.value != null) && (email.value != null && email.value.includes('@'))
         && (message.value != null)) {
         submitButton.disabled = false;
