@@ -31,4 +31,10 @@ function submitInfo() {
     message.value = '';
     document.getElementById('messageSent').setAttribute('style', 'display: block;');
     submitButton.classList.add('move');
+    finish();
+}
+
+function finish() {
+    submitButton.classList.remove('move');
+    document.getElementById('messageSent').setAttribute('style', 'display: none;');
 }
