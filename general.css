@@ -104,7 +104,6 @@ body {
 #messageSent.move {
     transform: translate(100px, 100px);
 }
-}
 
 .newCatBreed {
     display: flex;
