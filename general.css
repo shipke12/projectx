@@ -121,8 +121,8 @@ body {
     }
 
 .rotating-border {
-    width: auto;
-    background: linear-gradient(90deg, purple 50%, transparent 50%), linear-gradient(90deg, purple 50%, transparent 50%), linear-gradient(0deg, purple 50%, transparent 50%), linear-gradient(0deg, purple 50%, transparent 50%);
+    width: unset;
+    background: linear-gradient(90deg, #9BD7D5 50%, transparent 50%), linear-gradient(90deg, #9BD7D5 50%, transparent 50%), linear-gradient(0deg, #9BD7D5 50%, transparent 50%), linear-gradient(0deg, #9BD7D5 50%, transparent 50%);
     background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
     background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
     padding: 10px;
