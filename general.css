@@ -62,23 +62,32 @@ body {
         padding-top: 8px;
     }
 
-    .contactUs > input:enabled {
+    .contactUs > input {
         width: 200px;
         height: 100px;
-        transition-duration: 0.4s;
-        background-color: #9BD7D5;
-        color: #505050;
         border-radius: 25px;
-        border: 5px solid #FFF5C3;
+        border: 5px solid;
         font-family: 'Spartan';
         font-weight: bold;
         font-size: 14pt;
     }
 
-        .contactUs > input:enabled:hover {
-            background-color: #129793;
-            border: 5px solid #FF7260;
+        .contactUs > input:disabled {
+            background-color: #b2d6d5;
+            color: #757474;
+            border-color: #f5f0da;
         }
+
+        .contactUs > input:enabled {
+            transition-duration: 0.4s;
+            background-color: #9BD7D5;
+            color: #505050;
+        }
+
+            .contactUs > input:enabled:hover {
+                background-color: #129793;
+                border-color: #FF7260;
+            }
 
 .newCatBreed {
     display: flex;
