@@ -29,7 +29,7 @@ body {
         display: flex;
         flex-direction: row;
         align-content: center;
-        width: 15%;
+        width: 50%;
         height: auto;
         margin: 20px;
     }
