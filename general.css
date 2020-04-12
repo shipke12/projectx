@@ -246,10 +246,8 @@ body {
 
 @media screen and (max-width: 767px) {
     /* start of medium tablet styles */
-    .navigation {
-        padding: 50px;
+    .navigation nav {
         width: 100%;
-        display: flex;
         flex-direction: column;
         align-items: stretch;
         justify-content: flex-start;
