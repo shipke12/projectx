@@ -231,10 +231,31 @@ body {
             color: #FFF5C3;
         }
 
-        .navigation a:visited {
-            color: #FFF5C3;
-        }
-
         .navigation a:hover {
             color: #FF7260; /*pink*/
         }
+
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+    .navigation {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+    .navigation {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    /* start of phone styles */
+    .navigation {
+        width: 100%;
+        flex-direction: column;
+    }
+
+}
