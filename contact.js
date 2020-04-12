@@ -7,8 +7,20 @@ const messageSent = document.getElementById('messageSent');
 
 submitButton.disabled = true;
 
+firstName.addEventListener('input', () => {
+    document.getElementById('messageSent').setAttribute('style', 'display: none;');
+});
+
+lastName.addEventListener('input', () => {
+    document.getElementById('messageSent').setAttribute('style', 'display: none;');
+});
+
+email.addEventListener('input', () => {
+    document.getElementById('messageSent').setAttribute('style', 'display: none;');
+});
+
 message.addEventListener('input', () => {
-    
+    document.getElementById('messageSent').setAttribute('style', 'display: none');
     if ((firstName.value != null) && (lastName.value != null) && (email.value != null && email.value.includes('@'))
         && (message.value != null)) {
         submitButton.disabled = false;
@@ -31,10 +43,4 @@ function submitInfo() {
     message.value = '';
     document.getElementById('messageSent').setAttribute('style', 'display: block;');
     submitButton.classList.add('move');
-    finish();
-}
-
-function finish() {
-    submitButton.classList.remove('move');
-    document.getElementById('messageSent').setAttribute('style', 'display: none;');
 }
