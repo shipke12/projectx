@@ -50,16 +50,4 @@ function submitInfo() {
     message.value = '';
     document.getElementById('messageSent').setAttribute('style', 'display: block;');
     submitButton.classList.add('move');
-    sleep(500000);
-    submitButton.classList.remove('move');
-    submitButton.disabled = true;
-
-}
-
-function sleep(milliseconds) {
-    const date = Date.now();
-    let currentDate = null;
-    do {
-        currentDate = Date.now();
-    } while (currentDate - date < milliseconds);
 }
