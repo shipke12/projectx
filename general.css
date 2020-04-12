@@ -138,8 +138,9 @@ body {
     }
 
     .boxForFormatting img {
-        width: 5%;
-        height: 4%;
+        width: 8%;
+        height: auto;
+        justify-self: flex-end;
     }
 
 .boxForFormattingRight {
