@@ -166,7 +166,6 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     padding: 20px;
-    align-items: center;
     height: 200px;
 }
 
@@ -174,6 +173,7 @@ body {
         width: 30%;
         border-radius: 25px;
         height: auto;
+        align-self: center;
     }
 
 .boxForFormatting {
@@ -231,7 +231,6 @@ body {
     margin-right: 10%;
     padding: 20px;
     justify-content: flex-end;
-    align-items: center;
     height: 200px;
 }
 
@@ -239,6 +238,7 @@ body {
         width: 30%;
         border-radius: 25px;
         height: auto;
+        align-self: center;
     }
 
     .newCatBreedRight > .boxForFormattingRight {
@@ -420,19 +420,19 @@ body {
         flex-direction: column;
     }
 
-    .featureCatBreedRight img {
-        width: 100%;
-        height: auto;
-        align-self: center;
-    }
+        .featureCatBreedRight img {
+            width: 100%;
+            height: auto;
+            align-self: center;
+        }
 
-    .featureCatBreedRight > .boxForFormattingRight {
-        display: none;
-    }
+        .featureCatBreedRight > .boxForFormattingRight {
+            display: none;
+        }
 
-    .featureCatBreedRight > .boxForFormatting {
-        display: flex;
-    }
+        .featureCatBreedRight > .boxForFormatting {
+            display: flex;
+        }
 
     .newCatBreed {
         margin: 0;
