@@ -49,7 +49,7 @@ body {
     border: 5px solid #9BD7D5;
     align-items: center;
     height: auto;
-    background-color: #FF7260;/*pink*/
+    background-color: #FF7260; /*pink*/
 }
 
     .moreInfo a {
@@ -67,8 +67,6 @@ body {
         .moreInfo a:hover {
             color: #505050; /*black*/
         }
-
-}
 
 .contactUs {
     display: flex;
@@ -150,6 +148,7 @@ body {
     border: 5px solid #9BD7D5;
     align-items: center;
     height: 200px;
+    background-color: #FF7260;
 }
 
     .featureCatBreed img {
@@ -157,6 +156,22 @@ body {
         border-radius: 25px;
         height: auto;
     }
+
+    .featureCatBreed a {
+        color: #FFF5C3; /*yellow*/
+        text-decoration: none;
+        font-family: 'Spartan';
+        font-weight: bold;
+        transition: color .5s;
+    }
+
+        .featureCatBreed a:link {
+            color: #9BD7D5;
+        }
+
+        .featureCatBreed a:hover {
+            color: #505050; /*black*/
+        }
 
 .featureCatBreedRight {
     display: flex;
@@ -172,6 +187,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     height: 200px;
+    background-color: #FFF5C3;
 }
 
     .featureCatBreedRight img {
@@ -187,6 +203,23 @@ body {
     .featureCatBreedRight > .boxForFormatting {
         display: none;
     }
+
+    .featureCatBreedRight a {
+        color: #FF7260; /*pink*/
+        text-decoration: none;
+        font-family: 'Spartan';
+        font-weight: bold;
+        transition: color .5s;
+    }
+
+        .featureCatBreedRight a:link {
+            color: #FF7260;
+        }
+
+        .featureCatBreedRight a:hover {
+            color: #505050; /*black*/
+        }
+
 
 .newCatBreed {
     display: flex;
