@@ -45,6 +45,14 @@
         </div>
     </form>
     <p id="messageSent">Message successfully sent!</p>
+    <script>
+      var sent = document.querySelector('#messageSent');
+        sent.addEventListener('click',
+            function () {
+				sent.classList.toggle('move');
+			});
+    
+    </script>
 
 </body>
 </html>
