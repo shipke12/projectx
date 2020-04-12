@@ -268,14 +268,12 @@ body {
 }
 
 @media screen and (max-width: 991px) {
-    /* start of large tablet styles */
     .navigation {
         width: 80%;
     }
 }
 
 @media screen and (max-width: 767px) {
-    /* start of medium tablet styles */
     .navigation nav {
         width: 100%;
         flex-direction: column;
@@ -373,102 +371,3 @@ body {
     }
 }
 
-@media screen and (max-width: 479px) {
-    /* start of phone styles */
-
-    .navigation nav {
-        width: 100%;
-        flex-direction: column;
-        justify-content: space-around;
-        font-size: 21pt;
-    }
-
-    .navigation a {
-        align-self: center;
-        padding: 10px;
-    }
-
-    .bigBeautifulTop {
-        flex-direction: column;
-        align-items: center;
-    }
-
-        .bigBeautifulTop h1 {
-            margin: 5px;
-        }
-
-        .bigBeautifulTop a {
-            width: 50%;
-        }
-
-    .newCatBreed {
-        margin: 0;
-        flex-direction: column;
-    }
-
-        .newCatBreed img {
-            width: 100%;
-            align-self: center;
-        }
-
-    .newCatBreedRight {
-        margin: 0;
-        flex-direction: column;
-        justify-items: center;
-    }
-
-        .newCatBreedRight img {
-            width: 100%;
-            align-self: center;
-            border-radius: 25px;
-        }
-
-        .newCatBreedRight > .boxForFormattingRight {
-            display: none;
-        }
-
-        .newCatBreedRight > .boxForFormatting {
-            display: flex;
-        }
-
-    .contactUs {
-        flex-direction: column;
-        align-items: center;
-        font-size: 18pt;
-    }
-
-        .contactUs textarea {
-            width: 90%;
-            height: 50px;
-            margin-bottom: 20px;
-            font-size: 16pt;
-        }
-
-    #email {
-        width: 90%;
-    }
-
-    #message {
-        width: 90%;
-    }
-
-    .contactUs > input {
-        font-size: 18pt;
-    }
-
-    .newCatBreedRight {
-        font-size: 21pt;
-    }
-
-    .newCatBreed {
-        font-size: 21pt;
-    }
-
-    .boxForFormatting > h1 > span {
-        font-size: 18pt;
-    }
-
-    .boxForFormattingRight > h1 > span {
-        font-size: 18pt;
-    }
-}
