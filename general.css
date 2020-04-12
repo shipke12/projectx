@@ -292,6 +292,42 @@ body {
     .navigation {
         width: 80%;
     }
+
+    .featureCatBreed {
+        margin: 0;
+    }
+
+    .featureCatBreed img {
+        flex-grow: 2;
+    }
+
+    .featureCatBreed h1, p {
+        flex-grow: 1;
+    }
+
+    .newCatBreed {
+        margin: 0;
+    }
+
+    .newCatBreed img {
+        flex-grow: 2;
+    }
+
+    .newCatBreed h1, p {
+        flex-grow: 1;
+    }
+
+    .newCatBreedRight {
+        margin: 0;
+    }
+
+    .newCatBreedRight img {
+        flex-grow: 2;
+    }
+
+    .newCatBreedRight h1, p {
+        flex-grow: 1;
+    }
 }
 
 @media screen and (max-width: 767px) {
