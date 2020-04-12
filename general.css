@@ -312,6 +312,10 @@ body {
             display: flex;
         }
 
+    .contactUs {
+        flex-direction: column;
+    }
+
     @media screen and (max-width: 479px) {
         /* start of phone styles */
 
