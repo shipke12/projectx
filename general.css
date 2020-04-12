@@ -115,7 +115,7 @@ body {
     padding: 20px;
     border: 5px solid #9BD7D5;
     align-items: center;
-    height: 600px;
+    height: 400px;
 }
 
     .featureCatBreed img {
@@ -137,7 +137,7 @@ body {
     border: 5px solid #9BD7D5;
     justify-content: flex-end;
     align-items: center;
-    height: 600px;
+    height: 400px;
 }
 
     .featureCatBreedRight img {
@@ -167,7 +167,7 @@ body {
     margin-right: 10%;
     padding: 20px;
     align-items: center;
-    height: 600px;
+    height: 400px;
 }
 
     .newCatBreed img {
@@ -232,7 +232,7 @@ body {
     padding: 20px;
     justify-content: flex-end;
     align-items: center;
-    height: 600px;
+    height: 400px;
 }
 
     .newCatBreedRight img {
