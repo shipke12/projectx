@@ -6,11 +6,8 @@ const submitButton = document.getElementById('submit');
 
 submitButton.disabled = true;
 
-firstName.addEventListener('input', firstName.value);
-lastName.addEventListener('input', lastName.value);
-email.addEventListener('input', email.value);
 message.addEventListener('input', () => {
-    message.value;
+    
     if ((firstName.value != null) && (lastName.value != null) && (email.value != null && email.value.includes('@'))
         && (message.value != null)) {
         submitButton.disabled = false;
