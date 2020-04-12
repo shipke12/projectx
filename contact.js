@@ -50,4 +50,5 @@ function submitInfo() {
     message.value = '';
     document.getElementById('messageSent').setAttribute('style', 'display: block;');
     submitButton.classList.add('move');
+    submitButton.classList.remove('move');
 }
