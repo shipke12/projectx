@@ -248,6 +248,15 @@ body {
         flex-direction: row;
     }
 
+#email {
+    width: 300px;
+}
+
+#message {
+    width: 500px;
+    height: 200px;
+}
+
 @media screen and (max-width: 991px) {
     /* start of large tablet styles */
     .navigation {
@@ -323,6 +332,14 @@ body {
             height: 50px;
             margin-bottom: 20px;
         }
+
+    #email {
+        width: 90%;
+    }
+
+    #message {
+        width: 90%;
+    }
 
     @media screen and (max-width: 479px) {
         /* start of phone styles */
