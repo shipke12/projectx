@@ -26,10 +26,7 @@ body {
     }
 
     .bigBeautifulTop a {
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        width: 50%;
+        width: 15%;
         height: auto;
         margin: 20px;
     }
@@ -265,20 +262,11 @@ body {
         padding: 10px;
     }
 
-    .bigBeautifulTop h1 {
-        margin-bottom: 0;
+    .bigBeautifulTop {
+        flex-direction: column;
+        align-items: center;
     }
 
-    bigBeautifulTop a {
-        width: 30%;
-        height: auto;
-        margin: 10px;
-    }
-       
-    bigBeautifulTop > a > img {
-        width: 100%;
-        height: auto;
-    }
 }
 
 @media screen and (max-width: 479px) {
