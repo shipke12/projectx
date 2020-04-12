@@ -64,13 +64,15 @@ body {
 
     .contactUs > input {
         width: 200px;
-        height: 50px;
+        height: 100px;
         transition-duration: 0.4s;
         background-color: #9BD7D5;
         color: #505050;
         border-radius: 25px;
         border: 5px solid #FFF5C3;
         font-family: 'Spartan';
+        font-weight: bold;
+        font-size: 14pt;
     }
 
         .contactUs > input:hover {
