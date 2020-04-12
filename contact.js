@@ -3,6 +3,7 @@ const lastName = document.getElementById('last-name');
 const email = document.getElementById('email');
 const message = document.getElementById('message');
 const submitButton = document.getElementById('submit');
+const messageSent = document.getElementById('messageSent');
 
 submitButton.disabled = true;
 
@@ -29,4 +30,5 @@ function submitInfo() {
     email.value = '';
     message.value = '';
     document.getElementById('messageSent').setAttribute('style', 'display: block;')
+    messageSent.classList.add('move');
 }

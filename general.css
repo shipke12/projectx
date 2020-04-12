@@ -97,6 +97,13 @@ body {
     font-size: 18pt;
     color: #FFF5C3;
     text-align: center;
+    transform: translate(0, 0);
+    transition: transform 500ms;
+}
+
+#messageSent.move {
+    transform: translate(100px, 100px);
+}
 }
 
 .newCatBreed {
