@@ -113,31 +113,13 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     padding: 20px;
+    border: 5px double #9BD7D5;
 }
 
     .featureCatBreed img {
             width: 30%;
             border-radius: 25px;
     }
-
-.rotating-border {
-    width: unset;
-    background: linear-gradient(90deg, #9BD7D5 50%, transparent 50%), linear-gradient(90deg, #9BD7D5 50%, transparent 50%), linear-gradient(0deg, #9BD7D5 50%, transparent 50%), linear-gradient(0deg, #9BD7D5 50%, transparent 50%);
-    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
-    background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
-    padding: 10px;
-    animation: border-dance 4s infinite linear;
-}
-
-@keyframes border-dance {
-    0% {
-        background-position: 0 0, 100% 100%, 0 100%, 100% 0;
-    }
-
-    100% {
-        background-position: 100% 0, 0 100%, 0 0, 100% 100%;
-    }
-}
 
 .newCatBreed {
     display: flex;
