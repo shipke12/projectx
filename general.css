@@ -266,6 +266,12 @@ body {
         margin-bottom: 0;
     }
 
+    bigBeautifulTop a {
+        width: 30%;
+        height: auto;
+        margin: 10px;
+    }
+
 }
 
 @media screen and (max-width: 479px) {
