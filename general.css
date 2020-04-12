@@ -90,9 +90,10 @@ body {
                 border-color: #FF7260;
             }
 
-#error-message {
+#message {
     display: none;
     font-family: 'Spartan';
+    font-weight: bold;
     font-size: 18pt;
 }
 

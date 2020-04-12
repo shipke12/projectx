@@ -29,5 +29,5 @@ function submitInfo() {
     lastName.value('');
     email.value('');
     message.value('');
-    document.getElementById('error-message').setAttribute('style', 'display: block;')
+    document.getElementById('message-sent').setAttribute('style', 'display: block;')
 }
