@@ -238,7 +238,7 @@ body {
 
 @media screen and (max-width: 991px) {
     /* start of large tablet styles */
-    .navigation > nav{
+    .navigation {
         width: 80%;
     }
 
@@ -246,7 +246,7 @@ body {
 
 @media screen and (max-width: 767px) {
     /* start of medium tablet styles */
-    .navigation > nav{
+    .navigation {
         width: 100%;
         flex-direction: column;
         justify-items: stretch;
