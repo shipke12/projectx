@@ -236,6 +236,11 @@ body {
             color: #FF7260; /*pink*/
         }
 
+        .navigation nav {
+            display: flex;
+            flex-direction: row;
+        }
+
 @media screen and (max-width: 991px) {
     /* start of large tablet styles */
     .navigation {
