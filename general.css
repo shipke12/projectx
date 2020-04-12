@@ -335,49 +335,49 @@ body {
         margin: 0;
     }
 
-        .featureCatBreedRight img {
+        /*.featureCatBreedRight img {
             flex-grow: 2;
         }
 
         .featureCatBreedRight h1, p {
             flex-grow: 1;
-        }
+        }*/
 
     .featureCatBreed {
         margin: 0;
     }
 
-        .featureCatBreed img {
+        /*.featureCatBreed img {
             flex-grow: 2;
         }
 
         .featureCatBreed h1, p {
             flex-grow: 1;
-        }
+        }*/
 
     .newCatBreed {
         margin: 0;
     }
 
-        .newCatBreed img {
+        /*.newCatBreed img {
             flex-grow: 2;
         }
 
         .newCatBreed h1, p {
             flex-grow: 1;
-        }
+        }*/
 
     .newCatBreedRight {
         margin: 0;
     }
 
-        .newCatBreedRight img {
+        /*.newCatBreedRight img {
             flex-grow: 2;
         }
 
         .newCatBreedRight h1, p {
             flex-grow: 1;
-        }
+        }*/
 }
 
 @media screen and (max-width: 767px) {
@@ -409,6 +409,7 @@ body {
     .featureCatBreed {
         margin: 0;
         flex-direction: column;
+        height: 600px;
     }
 
         .featureCatBreed img {
@@ -420,6 +421,7 @@ body {
     .featureCatBreedRight {
         margin: 0;
         flex-direction: column;
+        height: 600px;
     }
 
         .featureCatBreedRight img {
@@ -439,6 +441,8 @@ body {
     .newCatBreed {
         margin: 0;
         flex-direction: column;
+        height: 600px;
+        font-size: 21pt;
     }
 
         .newCatBreed img {
@@ -451,6 +455,8 @@ body {
         margin: 0;
         flex-direction: column;
         justify-items: center;
+        height: 600px;
+        font-size: 21pt;
     }
 
         .newCatBreedRight img {
@@ -491,14 +497,6 @@ body {
 
     .contactUs > input {
         font-size: 18pt;
-    }
-
-    .newCatBreedRight {
-        font-size: 21pt;
-    }
-
-    .newCatBreed {
-        font-size: 21pt;
     }
 
     .boxForFormatting > h1 > span {
