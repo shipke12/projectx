@@ -54,8 +54,11 @@ body {
 
     .contactUs textarea {
         width: 200px;
-        height:25px;
+        height: 25px;
         margin-right: 20px;
+        font-size: 18pt;
+        font-family: 'Spartan';
+        color: #505050;
     }
 
 .newCatBreed {
