@@ -114,6 +114,8 @@ body {
     margin-right: 10%;
     padding: 20px;
     border: 5px solid #9BD7D5;
+    align-items: center;
+    height: 600px;
 }
 
     .featureCatBreed img {
@@ -134,6 +136,8 @@ body {
     padding: 20px;
     border: 5px solid #9BD7D5;
     justify-content: flex-end;
+    align-items: center;
+    height: 600px;
 }
 
     .featureCatBreedRight img {
@@ -162,6 +166,8 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     padding: 20px;
+    align-items: center;
+    height: 600px;
 }
 
     .newCatBreed img {
@@ -225,6 +231,8 @@ body {
     margin-right: 10%;
     padding: 20px;
     justify-content: flex-end;
+    align-items: center;
+    height: 600px;
 }
 
     .newCatBreedRight img {
@@ -320,6 +328,18 @@ body {
     .navigation {
         width: 80%;
     }
+
+    .featureCatBreedRight {
+        margin: 0;
+    }
+
+        .featureCatBreedRight img {
+            flex-grow: 2;
+        }
+
+        .featureCatBreedRight h1, p {
+            flex-grow: 1;
+        }
 
     .featureCatBreed {
         margin: 0;
