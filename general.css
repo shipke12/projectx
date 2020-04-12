@@ -282,9 +282,20 @@ body {
 
     .newCatBreed img {
         width: 90%;
+        align-self: center;
     }
 
-}
+    .newCatBreedRight {
+        margin: 0;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .newCatBreedRight img {
+        width: 90%;
+        align-self: center;
+        border-radius: 25px;
+    }
 
 @media screen and (max-width: 479px) {
     /* start of phone styles */
