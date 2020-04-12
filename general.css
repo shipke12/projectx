@@ -36,6 +36,40 @@ body {
         height: auto;
     }
 
+.moreInfo {
+    display: flex;
+    flex-direction: column;
+    font-size: 11pt;
+    font-family: 'Spartan';
+    font-weight: bold;
+    border-radius: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    border: 5px solid #9BD7D5;
+    align-items: center;
+    height: auto;
+    background-color: #FF7260;/*pink*/
+}
+
+    .moreInfo a {
+        color: #FFF5C3; /*yellow*/
+        text-decoration: none;
+        font-family: 'Spartan';
+        font-weight: bold;
+        transition: color .5s;
+    }
+
+        .moreInfo a:link {
+            color: #FFF5C3;
+        }
+
+        .moreInfo a:hover {
+            color: #505050; /*black*/
+        }
+
+}
+
 .contactUs {
     display: flex;
     flex-direction: row;
@@ -335,7 +369,7 @@ body {
         margin: 0;
     }
 
-        /*.featureCatBreedRight img {
+    /*.featureCatBreedRight img {
             flex-grow: 2;
         }
 
@@ -347,7 +381,7 @@ body {
         margin: 0;
     }
 
-        /*.featureCatBreed img {
+    /*.featureCatBreed img {
             flex-grow: 2;
         }
 
@@ -359,7 +393,7 @@ body {
         margin: 0;
     }
 
-        /*.newCatBreed img {
+    /*.newCatBreed img {
             flex-grow: 2;
         }
 
@@ -371,7 +405,7 @@ body {
         margin: 0;
     }
 
-        /*.newCatBreedRight img {
+    /*.newCatBreedRight img {
             flex-grow: 2;
         }
 
