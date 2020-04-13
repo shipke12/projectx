@@ -147,7 +147,6 @@ body {
     padding: 20px;
     border: 5px solid #9BD7D5;
     align-items: center;
-    height: 30%;
     background-color: #FF7260;
 }
 
@@ -186,7 +185,6 @@ body {
     border: 5px solid #9BD7D5;
     justify-content: flex-end;
     align-items: center;
-    height: 30%;
     background-color: #FFF5C3;
 }
 
@@ -233,7 +231,6 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     padding: 20px;
-    height: 30%;
 }
 
     .newCatBreed img {
@@ -300,7 +297,6 @@ body {
     margin-right: 10%;
     padding: 20px;
     justify-content: flex-end;
-    height: 30%;
 }
 
     .newCatBreedRight img {
