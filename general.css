@@ -147,7 +147,7 @@ body {
     padding: 20px;
     border: 5px solid #9BD7D5;
     align-items: center;
-    height: 200px;
+    height: 30%;
     background-color: #FF7260;
 }
 
@@ -155,7 +155,6 @@ body {
         width: 30%;
         border-radius: 25px;
         height: auto;
-        margin: 20px;
     }
 
     .featureCatBreed a {
@@ -187,7 +186,7 @@ body {
     border: 5px solid #9BD7D5;
     justify-content: flex-end;
     align-items: center;
-    height: 200px;
+    height: 30%;
     background-color: #FFF5C3;
 }
 
@@ -195,7 +194,6 @@ body {
         width: 30%;
         border-radius: 25px;
         height: auto;
-        margin: 20px;
     }
 
     .featureCatBreedRight > .boxForFormattingRight {
@@ -235,7 +233,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     padding: 20px;
-    height: 200px;
+    height: 30%;
 }
 
     .newCatBreed img {
@@ -243,7 +241,6 @@ body {
         border-radius: 25px;
         height: auto;
         align-self: center;
-        margin: 20px;
     }
 
 .boxForFormatting {
@@ -303,7 +300,7 @@ body {
     margin-right: 10%;
     padding: 20px;
     justify-content: flex-end;
-    height: 200px;
+    height: 30%;
 }
 
     .newCatBreedRight img {
@@ -311,7 +308,6 @@ body {
         border-radius: 25px;
         height: auto;
         align-self: center;
-        margin: 20px;
     }
 
     .newCatBreedRight > .boxForFormattingRight {
